@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Vertretungsplan</string>
+    <string name="title_today">Heute, %1$s</string>
+    <string name="title_tomorrow">Morgen, %1$s</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="title_about">Über</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_about">Über</string>
+
+
+
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- School -->
+
+    <string name="pref_school_class_number_title">Meine Klassenstufe</string>
+    <string name="pref_school_class_number_key">pref_school_class_number</string>
+
+    <string name="pref_school_class_letter_title">Mein Klassenbuchstabe</string>
+    <string name="pref_school_class_letter_key">pref_school_class_letter</string>
+
+    <!-- Sync -->
+
+    <string name="pref_sync_frequency_title">Abfragefrequenz</string>
+    <string name="pref_sync_frequency_key">pref_sync_frequency</string>
+    <string-array name="pref_sync_frequency_entries">
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1h</item>
+        <item>3h</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+    </string-array>
+    <string name="pref_sync_frequency_default">30</string>
+
+    <!-- About text -->
+    <string name="about_text">Diese App fragt den Vertretungsplan des GGL automatisch ab und filtert die für dich relevanten Änderungen heraus.</string>
+
+</resources>
