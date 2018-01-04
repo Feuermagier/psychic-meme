@@ -26,8 +26,10 @@ public class NetworkingService extends JobService {
     private static final String TAG = NetworkingService.class.getSimpleName();
 
 
-    public static final String URL_TODAY = "http://129.143.230.62/vertretungsplan/heute.html";
-    public static final String URL_TOMORROW = "http://129.143.230.62/vertretungsplan/morgen.html";
+    /*public static final String URL_TODAY = "http://129.143.230.62/vertretungsplan/heute.html";
+    public static final String URL_TOMORROW = "http://129.143.230.62/vertretungsplan/morgen.html";*/
+    public static final String URL_TODAY = "http://192.168.178.31/vertretungsplan/heute.html";
+    public static final String URL_TOMORROW = "http://192.168.178.31/vertretungsplan/morgen.html";
     //public static final String STANDARD_PAGE = "http://www.goethelb.de/sys_page/Page-Intern.html";
 
     private void doConnection() {

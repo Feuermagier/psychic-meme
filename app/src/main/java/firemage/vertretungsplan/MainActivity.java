@@ -13,7 +13,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -88,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         changesView = (ListView)findViewById(R.id.changes_list);
         changesView.setAdapter(new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, allChangesToday));
+        changesView.setEmptyView(findViewById(R.id.empty));
 
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
 

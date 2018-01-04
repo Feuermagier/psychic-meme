@@ -41,5 +41,6 @@
 
     <!-- About text -->
     <string name="about_text">Diese App fragt den Vertretungsplan des GGL automatisch ab und filtert die für dich relevanten Änderungen heraus.</string>
+    <string name="list_empty">Leider fällt nichts aus :(</string>
 
 </resources>

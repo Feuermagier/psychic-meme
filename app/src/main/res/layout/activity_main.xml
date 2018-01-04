@@ -18,6 +18,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/changes_list"/>
+        <TextView
+            android:id="@+id/empty"
+            android:text="@string/list_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            />
 
     </FrameLayout>
 
